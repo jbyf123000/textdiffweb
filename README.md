@@ -21,18 +21,6 @@ npm run dev
 
 默认开发地址通常是 `http://localhost:5173`。
 
-## VS Code 调试
-
-项目已内置 `.vscode/launch.json` 和 `.vscode/tasks.json`。
-
-在 VS Code 中打开项目后可直接按：
-
-```text
-F5
-```
-
-即可自动启动 Vite 开发服务并打开浏览器调试页面。
-
 ## Docker 部署
 
 ```bash
@@ -44,6 +32,8 @@ docker compose up -d --build
 ```text
 http://localhost:8080
 ```
+
+当前容器内部监听端口为 `8080`，也兼容 Zeabur 注入的 `PORT` 环境变量。
 
 ## 一键下载并启动
 
@@ -88,7 +78,6 @@ https://github.com/jbyf123000/textdiffweb.git
 
 - `src/App.jsx`：主界面和交互逻辑
 - `src/App.css`：页面样式
-- `.vscode/`：VS Code 调试配置
 - `Dockerfile`：生产镜像构建
 - `docker-compose.yml`：一键启动配置
 - `nginx.conf`：静态资源服务配置
