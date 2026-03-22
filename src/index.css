@@ -1,0 +1,44 @@
+:root {
+  font-family:
+    'Segoe UI Variable Text',
+    'PingFang SC',
+    'Noto Sans SC',
+    'Microsoft YaHei',
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #183250;
+  background:
+    radial-gradient(circle at top left, #e2eeff 0, transparent 34%),
+    radial-gradient(circle at bottom right, #ffe9d7 0, transparent 28%),
+    linear-gradient(180deg, #f7fbff 0%, #eef4fa 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}

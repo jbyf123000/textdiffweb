@@ -1,0 +1,9 @@
+services:
+  textdiff-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: textdiff-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped
